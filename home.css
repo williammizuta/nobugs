@@ -1,0 +1,110 @@
+body
+{
+	font-size: 11px;
+	font-family: arial;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;	
+	background-color:#D0D0D0;
+}
+
+html > body
+{
+	font-size: 11px;
+	font-family: arial;
+	font-weight: normal;
+	color: #333333;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+#principal
+{
+	position: relative;
+	width: 780px;
+	left: 50%;
+	margin-left: -390px;
+		
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	border-bottom:1px solid #999999;
+	background-color:White;
+}
+
+#topo
+{
+	position: relative;
+	padding:0;
+	width: 780px;
+	height: 180px;
+	background-repeat: no-repeat;
+	z-index: 100;
+	background-image: url(http://www.pudim.com.br/SiteBuilder/UploadUsers/pudim.com.br/634607701572677834.png);
+}
+
+#logo
+{
+	position: absolute;
+	top:54px;
+	left:70px;
+}
+
+#menu
+{
+	position: relative;
+	width: 780px;
+	height: 53px;
+	background-image: url(http://www.pudim.com.br/SiteBuilder/Templates/Pessoal03/Pessoal03Palha/imagens/tc_contrutor_template03_pessoal_palha_menu.gif);
+	background-repeat: no-repeat;
+	z-index:200;
+	padding:20px 0px 0px 5px;
+}
+
+#conteudo
+{
+	position: relative;
+	width: 97%;
+	padding: 10px;
+	text-align: center;
+}
+
+#conteudo img
+{
+	background-image: url(http://www.pudim.com.br/SiteBuilder/Templates/Pessoal03/Pessoal03Palha/imagens/tc_contrutor_template03_pessoal_palha_topo.jpg);
+}
+
+#rodape
+{
+	position: relative;
+	width: 780px;
+	height: 60px;
+	color: White;
+	background-image: url(http://www.pudim.com.br/SiteBuilder/Templates/Pessoal03/Pessoal03Palha/imagens/tc_contrutor_template03_pessoal_palha_rodape.gif);
+	background-repeat: no-repeat;
+}
+
+#rodape-view-mode
+{
+	position: absolute;
+	top: 35px;
+	left: 20px;
+	width: 690px;
+}
+
+#rodape-view-mode span
+{
+	color: blue;
+}
+
+#position
+{
+	float: left;
+	padding-right: 12px;
+	font-family: Arial;
+	font-size: 10px;
+	color: White;
+	font-weight: bold;
+}
